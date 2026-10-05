@@ -21,4 +21,15 @@ public class UNE {
         registrationStatus = "Pending";
         examCenter = "To be assigned";
     }
+
+    public UNE(String firstName, String lastName, String id, String school) {
+        System.out.println(">> CONSTRUCTOR: Registering " + firstName);
+        this.StudentfirstName = firstName;
+        this.StudentlastName = lastName;
+        this.StudentID = id;
+        this.StudentSchool = school;
+        this.registrationStatus = "Registered";
+        this.examCenter = "City Exam Center Namirembe";
+
+    }
 }
