@@ -32,4 +32,12 @@ public class UNE {
         this.examCenter = "City Exam Center Namirembe";
 
     }
+
+    public UNE(String firstName, String lastName, String id) {
+        System.out.println(">> CONSTRUCTOR (short): Registering " + firstName);
+        this.StudentfirstName = firstName;
+        this.StudentlastName = lastName;
+        this.StudentID = id;
+        this.StudentSchool = "Not specified";
+    }
 }
