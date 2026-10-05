@@ -40,4 +40,15 @@ public class UNE {
         this.StudentID = id;
         this.StudentSchool = "Not specified";
     }
+
+    public void displayStudentInfo() {
+        System.out.println("Student Name: " + StudentfirstName + " " + StudentlastName);
+        System.out.println("Student ID: " + StudentID);
+        System.out.println("School: " + StudentSchool);
+        System.out.println("Registration Status: " + registrationStatus);
+        System.out.println("Exam Center: " + examCenter);
+        System.out.println("Exam Year: " + examYear);
+        System.out.println("Registration Fee: $" + registrationFee);
+        System.out.println("Grading Policy: " + gradingPolicy);
+    }
 }
