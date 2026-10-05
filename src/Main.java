@@ -10,5 +10,8 @@ public class Main {
         System.out.println("--- Registering student 3 ---");
         UNE student3 = new UNE("Kato", "Michael", "25/452/BIT-J", "Kyambogo parent school");
         student3.displayStudentInfo();
+        System.out.println("--- Registering student 4 ---");
+        UNE student4 = new UNE("Achieng", "Grace", "25/453/BIT-J");
+        student4.displayStudentInfo();
     }
 }
