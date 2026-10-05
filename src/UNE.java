@@ -15,4 +15,10 @@ public class UNE {
         registrationFee = 150.00;
         gradingPolicy = "Standard Grading Policy";
     }
+
+    {
+        System.out.println(">> INSTANCE BLOCK: Setting default values...");
+        registrationStatus = "Pending";
+        examCenter = "To be assigned";
+    }
 }
